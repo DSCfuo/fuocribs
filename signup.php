@@ -159,6 +159,9 @@ if (isset($_SESSION['user_id'])){
 
 ?>
 <div class="container signup-form-bg" >
+<div class="col-md-4" style="color: grey; margin-top:5%; margin-left: 13%;" >
+		<h1>FUOCRIBS</h1>
+	</div>
 	<div class="col-md-5">
 	<?php if($output_form) { ?>
 	<form class="signup-form" method="post" action="<?php echo htmlspecialchars($_SERVER['PHP_SELF']); ?>">
@@ -202,5 +205,5 @@ if (isset($_SESSION['user_id'])){
 		<p>You have successfully signed up. Please <a href='login.php'>click here to continue</a></p>
 	<?php } ?>
 	</div>
-
+	
 </div>
