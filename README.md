@@ -11,7 +11,8 @@ Fuocribs  is an open source web project aimed at helping university students fin
 
 ## Tools needed
 * Web browser
-* Text editor    
+* Text editor
+* Xampp
 * You can use any text editor of your choice.
 Recommended text editors: [Atom](https://atom.io), [Brackets](https://brackets.io), [Vscode](https://code.visualstudio.com/download) * Offline server ([xampp](https://www.apachefriends.org/download.html) or [wamp](http://www.wampserver.com/en/))  
 
