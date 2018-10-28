@@ -2,7 +2,7 @@
     color: grey;
     background-color: white;
     width: 98%;
-    padding: 2% 5% 6% 5%;
+    padding: 4% 5% 6% 5%;
     margin: auto;
     border: 1px solid lightgrey;
     border-radius: 3%;
@@ -20,3 +20,7 @@
 .signup-form input {
     height: 45px;
 }
+.signup-form-bg {
+    background: url(../images/house.png);
+}
+   

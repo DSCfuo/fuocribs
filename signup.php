@@ -158,46 +158,49 @@ if (isset($_SESSION['user_id'])){
 
 
 ?>
-<div class="col-md-5">
-<?php if($output_form) { ?>
-<form class="signup-form" method="post" action="<?php echo htmlspecialchars($_SERVER['PHP_SELF']); ?>">
- <h2>Create an account </h2>
-  <div class="form-group">
-    <label for="fullname">Full name:</label>
-	<input type="fullname" class="form-control" name="fullname" id="fullname" placeholder="Enter your full name"
-	value="<?php if (isset($fullname)) echo $fullname;?>" required>
-	<?php if(isset($fullnameErr)) echo $fullnameErr ?>
-  </div>
+<div class="container signup-form-bg" >
+	<div class="col-md-5">
+	<?php if($output_form) { ?>
+	<form class="signup-form" method="post" action="<?php echo htmlspecialchars($_SERVER['PHP_SELF']); ?>">
+	<h2>Create an account </h2>
+	<div class="form-group">
+		<label for="fullname">Full name:</label>
+		<input type="fullname" class="form-control" name="fullname" id="fullname" placeholder="Enter your full name"
+		value="<?php if (isset($fullname)) echo $fullname;?>" required>
+		<?php if(isset($fullnameErr)) echo $fullnameErr ?>
+	</div>
 
-  <div class="form-group">
-    <label for="email">Email:</label>
-	<input type="email" class="form-control" name="email" id="email" placeholder="Enter your email"
-	value="<?php if (isset($email)) echo $email;?>" required>
-	<?php if(isset($emailErr)) echo $emailErr ?>
-  </div>
+	<div class="form-group">
+		<label for="email">Email:</label>
+		<input type="email" class="form-control" name="email" id="email" placeholder="Enter your email"
+		value="<?php if (isset($email)) echo $email;?>" required>
+		<?php if(isset($emailErr)) echo $emailErr ?>
+	</div>
 
-  <div class="form-group">
-    <label for="phone">Phone number:</label>
-	<input type="phone" class="form-control" name="phone" id="phone" placeholder="Enter your phone number"
-	value="<?php if (isset($phone)) echo $phone;?>" required>
-	<?php if(isset($phoneErr)) echo $phoneErr ?>
-  </div>
+	<div class="form-group">
+		<label for="phone">Phone number:</label>
+		<input type="phone" class="form-control" name="phone" id="phone" placeholder="Enter your phone number"
+		value="<?php if (isset($phone)) echo $phone;?>" required>
+		<?php if(isset($phoneErr)) echo $phoneErr ?>
+	</div>
 
-  <div class="form-group">
-    <label for="pwd1">Password:</label>
-	<input type="password" class="form-control" name="pwd1" id="pwd1" placeholder="create password" required>
-	<?php if(isset($pwd1Err)) echo $pwd1Err ?>
-  </div>
+	<div class="form-group">
+		<label for="pwd1">Password:</label>
+		<input type="password" class="form-control" name="pwd1" id="pwd1" placeholder="create password" required>
+		<?php if(isset($pwd1Err)) echo $pwd1Err ?>
+	</div>
 
-  <div class="form-group">
-    <label for="pwd2">Confirm password:</label>
-	<input type="password" class="form-control" name="pwd2" id="pwd2" placeholder="Enter your password again" required>
-	<?php if(isset($pwd2Err)) echo $pwd2Err ?>
-  </div>
+	<div class="form-group">
+		<label for="pwd2">Confirm password:</label>
+		<input type="password" class="form-control" name="pwd2" id="pwd2" placeholder="Enter your password again" required>
+		<?php if(isset($pwd2Err)) echo $pwd2Err ?>
+	</div>
 
-  <button type="submit" class="btn btn-default">Sign up</button>
-</form>
-<?php } else {?>
-	<p>You have successfully signed up. Please <a href='login.php'>click here to continue</a></p>
-<?php } ?>
+	<button type="submit" class="btn btn-default">Sign up</button>
+	</form>
+	<?php } else {?>
+		<p>You have successfully signed up. Please <a href='login.php'>click here to continue</a></p>
+	<?php } ?>
+	</div>
+
 </div>
