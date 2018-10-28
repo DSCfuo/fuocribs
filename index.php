@@ -1,14 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <title>Fuocribs</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="css/bootstrap.min.css">
-
-
-</head>
-<body>
+<?php require_once "include/header.php"; ?>
 
 <nav class="navbar navbar-default">
   <div class="container">
