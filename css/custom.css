@@ -1,4 +1,4 @@
-.signup-form {
+.signup-form, .login-form {
     color: grey;
     background-color: white;
     width: 98%;
@@ -10,17 +10,39 @@
     margin-top: 5%;
     font-size: 18px;
 }
-.signup-form button {
+.signup-form button, .login-form button {
     background-color: #ff3b3f;
     color: white;
     height: 45px;
     width: 100%;
     font-size: 17px;
 }
-.signup-form input {
+.signup-form input, .login-form input {
     height: 45px;
 }
 .signup-form-bg {
     background: url(../images/house.png);
 }
-   
+.login-form label {
+    margin-bottom: 2%;
+    margin-top: 3%;
+}
+.login-form {
+    margin-top: 16%;
+    padding-bottom: 4%;
+}
+.login-form input {
+    margin-bottom: 5%;
+}
+.login-form button {
+    margin-bottom: 4%;
+}
+#forgot-password {
+    display: block;
+    color: grey;
+    width: 50%;
+    font-size: 16px;
+    font-weight: 700;
+    margin:auto;
+  
+}
