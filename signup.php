@@ -31,7 +31,7 @@ if (isset($_SESSION['user_id'])){
           }
         }
 	  }
-	  
+
 	  if (empty($_POST['phone'])){
         $phoneErr = form_err("Phone number is required");
       }
@@ -71,7 +71,7 @@ if (isset($_SESSION['user_id'])){
         }
       }
 
- 
+
 
       if (empty($_POST['email'])){
         $emailErr = "Email is required";
@@ -200,10 +200,16 @@ if (isset($_SESSION['user_id'])){
 	</div>
 
 	<button type="submit" class="btn btn-default">Sign up</button>
+
+  <div class="base">
+    <p>Already have an account? <a href="#">Log in</a></p>
+    <a href="#">Forgot Password?</a>
+  </div>
+
 	</form>
 	<?php } else {?>
 		<p>You have successfully signed up. Please <a href='login.php'>click here to continue</a></p>
 	<?php } ?>
 	</div>
-	
+
 </div>
