@@ -140,7 +140,7 @@ if (isset($_SESSION['user_id'])){
               if (mysqli_num_rows($username_result) < 1 && mysqli_num_rows($email_result)  < 1){
 				  //unique user
                 $query = "INSERT INTO students
-                         (fullname, username, email, phone, signup_date, password)
+                         (fullname, username, email, phone, signup_date,password)
                          VALUES ('$fullname', '$username', '$email', '$phone', NOW(), md5('$pwd1'));
                          ";
                 mysqli_query($conn, $query) or die(mysqli_error($conn));
@@ -178,6 +178,13 @@ if (isset($_SESSION['user_id'])){
 		<input type="email" class="form-control" name="email" id="email" placeholder="Enter your email"
 		value="<?php if (isset($email)) echo $email;?>" required>
 		<?php if(isset($emailErr)) echo $emailErr ?>
+  </div>
+  
+  <div class="form-group">
+		<label for="username">Username:</label>
+		<input type="text" class="form-control" name="username" id="username" placeholder="Enter your username"
+		value="<?php if (isset($username)) echo $username;?>" required>
+		<?php if(isset($usernameErr)) echo $usernameErr ?>
 	</div>
 
 	<div class="form-group">
