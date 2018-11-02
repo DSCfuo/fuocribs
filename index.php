@@ -1,7 +1,7 @@
 <?php require_once "include/header.php"; ?>
 
 <nav class="navbar navbar-default">
-  <div class="container">
+  <div class="container-fluid">
     <div class="navbar-header">
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
         <span class="icon-bar"></span>
@@ -20,25 +20,26 @@
 </nav>
 
 <!-- probably a slide show -->
-<div class="container">
+<div class="jumbotron index-page-image ">
   <div class="cover_wall">
     <div class="showcase">
       <h3>Welcome to FUOCRIBS</h3>
+   
     </div>
   </div>
 </div>
 <!-- end of probably a slide show -->
 
 <!-- main content -->
-<div class="container">
+<!-- <div class="container-fluid"> -->
   <!-- <h2 class="get_roommate">Get a roommate in three simple steps</h2> -->
   <div class="row">
     <!-- steps involved to get a roommate -->
-    <div class="reg_container">
-      <div class="col-sm-4" style="padding:0">
+    <!-- <div class="reg_container"> -->
+      <div class="col-sm-4 index-cards">
         <div class="reg_steps text-center">
           <div class="icon">
-            <img src="images/4.jpg" alt="">
+            <img src="images/4.jpg"  alt="" height="350" width="100%">
           </div>
           <h3 class="text-center">1. Create a free account</h3>
           <p>dumhhc xd fdf fdsfdsj aokmd eoei saushss sidsiwe wknks
@@ -46,28 +47,29 @@
         </div>
       </div>
 
-      <div class="col-sm-4" style="padding:0">
+      <div class="col-sm-4 index-cards" >
         <div class="reg_steps text-center">
           <div class="icon">
-            <img src="images/3.jpg" alt="">
+            <img src="images/3.jpg" alt="" height="350" width="100%">
           </div>
-          <h3 class="text-center">2. Make a sreach</h3>
+          <h3 class="text-center">2. Make a search</h3>
           <p>dumhhc xd fdf fdsfdsj aokmd eoei saushss sidsiwe wknks
           kjnknkfslad djhn dsfsd</p>
         </div>
       </div>
 
-      <div class="col-sm-4" style="padding:0">
+      <div class="col-sm-4 index-cards" >
         <div class="reg_steps text-center">
           <div class="icon">
-            <img src="images/2.jpg" alt="">
+            <img src="images/2.jpg" alt="" height="350" width="100%"> 
           </div>
           <h3 class="text-center">3. Get connected to your roommate</h3>
           <p>dumhhc xd fdf fdsfdsj aokmd eoei saushss sidsiwe wknks
           kjnknkfslad djhn dsfsd</p>
         </div>
       </div>
-
+</div>
+<div class="row">
       <div class="register pull-right">
         <span>What are you waiting for ?</span>
         <a href="">
@@ -124,10 +126,10 @@
           </div>
         </div>
       </div>
-    </div>
+    <!-- </div> -->
     <!-- end of steps involved to get a roommate -->
   </div>
-</div>
+<!-- </div> -->
 <!--end of main content -->
 
 

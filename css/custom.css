@@ -50,23 +50,22 @@
 *
 */
 /* slid-show */
-.cover_wall{
+/* .cover_wall{
   display: grid;
   grid-gap: 40px;
   grid-template-areas:
     'showcase showcase '
     'showcase showcase ';
   margin-bottom: 18px;
-}
-.showcase{
-  position: relative;
-  grid-area: showcase;
+} */
+
+.index-page-image {
   max-height: 460px;
   height: 440px;
   background: url(../images/1.jpg);
   background-size: cover;
   background-position: center;
-  padding: 5rem 3rem 1rem 2rem;/*top right bottom left*/
+  margin-top: -3%;
 }
 
 .container h2.get_roommate{
