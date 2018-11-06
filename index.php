@@ -20,62 +20,93 @@
 </nav>
 
 <!-- probably a slide show -->
-<div class="jumbotron index-page-image ">
-  <div class="cover_wall">
-    <div class="showcase">
-      <h3>Welcome to FUOCRIBS</h3>
-   
-    </div>
+<div class="jumbotron showcase">
+  <div class="showcase-text">
+      <h1>Search for homes near campus</h1>
+      <h3>Find roommates without stress</h3>
   </div>
+    <div class="sign-in">
+        <form>
+            <h4>Sign In</h4>
+            <div>
+                <label>Email</label><br>
+                <input type="email" placeholder="Enter your email">
+            </div>
+            <div>
+                <label>Password</label><br>
+                <input type="password" placeholder="Enter your password">
+            </div>
+            <button class="log-in-btn">Sign In</button>
+            <p>Don't have an account? <a href="#">Sign Up</a></p>
+            <p>Forgot Password?</p>
+        </form>
+    </div>
+    
 </div>
 <!-- end of probably a slide show -->
 
 <!-- main content -->
 <!-- <div class="container-fluid"> -->
   <!-- <h2 class="get_roommate">Get a roommate in three simple steps</h2> -->
-  <div class="row">
+  <div class="row feature-section">
     <!-- steps involved to get a roommate -->
     <!-- <div class="reg_container"> -->
-      <div class="col-sm-4 index-cards">
-        <div class="reg_steps text-center">
-          <div class="icon">
-            <img src="images/4.jpg"  alt="" height="350" width="100%">
-          </div>
-          <h3 class="text-center">1. Create a free account</h3>
+      <div class="feature-cards">
+          <h3 class="feature-heading">Fast</h3>
+        <img src="images/4.jpg"  alt="Failed to load image">
           <p>dumhhc xd fdf fdsfdsj aokmd eoei saushss sidsiwe wknks
           kjnknkfslad djhn dsfsdfsow</p>
-        </div>
       </div>
 
-      <div class="col-sm-4 index-cards" >
-        <div class="reg_steps text-center">
-          <div class="icon">
-            <img src="images/3.jpg" alt="" height="350" width="100%">
-          </div>
-          <h3 class="text-center">2. Make a search</h3>
+      <div class="feature-cards">
+          <h3 class="feature-heading">Easy to use</h3>
+        <img src="images/3.jpg"  alt="Failed to load image">
           <p>dumhhc xd fdf fdsfdsj aokmd eoei saushss sidsiwe wknks
-          kjnknkfslad djhn dsfsd</p>
-        </div>
+          kjnknkfslad djhn dsfsdfsow</p>
       </div>
 
-      <div class="col-sm-4 index-cards" >
-        <div class="reg_steps text-center">
-          <div class="icon">
-            <img src="images/2.jpg" alt="" height="350" width="100%"> 
-          </div>
-          <h3 class="text-center">3. Get connected to your roommate</h3>
+      <div class="feature-cards">
+          <h3 class="feature-heading">Stress free</h3>
+        <img src="images/2.jpg"  alt="Failed to load image">
           <p>dumhhc xd fdf fdsfdsj aokmd eoei saushss sidsiwe wknks
-          kjnknkfslad djhn dsfsd</p>
-        </div>
+          kjnknkfslad djhn dsfsdfsow</p>
       </div>
 </div>
-<div class="row">
-      <div class="register pull-right">
-        <span>What are you waiting for ?</span>
-        <a href="">
-          <button type="button" class="btn">Create an account</button>
-        </a>
+
+<div class="steps">
+    <div class="step-item">
+        <div class="step-num">
+            <h2>1</h2>
+        </div>
+        <h2>Create a free account</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco</p>
+    </div>
+    
+     <div class="step-item">
+        <div class="step-num">
+            <h2>2</h2>
+        </div>
+        <h2>Create a free account</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco</p>
+    </div>
+    
+     <div class="step-item">
+        <div class="step-num">
+            <h2>3</h2>
+        </div>
+        <h2>Create a free account</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco</p>
+    </div>
+
+</div>
+ <div class="register">
+     <div>
+         <p>What are you waiting for ?</p>
+          <button type="button" class="btn">Create an account now!</button>
+     </div>
       </div>
+<div class="row">
+     
 
       <div class="clearfix"></div>
 
@@ -84,7 +115,7 @@
         <div class="content">
           <div class="col-sm-4" style="padding:0">
             <div class="feed_box">
-              <div class="feed_icon pull-left">
+              <div class="feed_icon">
                 <img src="images/default.jpg" alt="">
               </div>
               <div class="clearfix"></div>
@@ -98,7 +129,7 @@
           </div>
           <div class="col-sm-4" style="padding:0">
             <div class="feed_box">
-              <div class="feed_icon pull-left">
+              <div class="feed_icon">
                 <img src="images/default.jpg" alt="">
               </div>
               <div class="clearfix"></div>
@@ -112,7 +143,7 @@
           </div>
           <div class="col-sm-4" style="padding:0">
             <div class="feed_box">
-              <div class="feed_icon pull-left">
+              <div class="feed_icon">
                 <img src="images/default.jpg" alt="">
               </div>
               <div class="clearfix"></div>
@@ -132,12 +163,9 @@
 <!-- </div> -->
 <!--end of main content -->
 
-
-
-
-
-
-
+<footer>
+    <p>Copyright &copy; 2018 DSC FUO</p>
+</footer>
 
 
 <script src="js/jquery/jquery-3.3.1.min.js"></script>
